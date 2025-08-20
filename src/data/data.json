@@ -1,22 +1,32 @@
-[
-  {
-    "category": "Reaction",
-    "score": 80,
-    "icon": "icon-reaction.svg"
-  },
-  {
-    "category": "Memory",
-    "score": 92,
-    "icon": "icon-memory.svg"
-  },
-  {
-    "category": "Verbal",
-    "score": 61,
-    "icon": "icon-verbal.svg"
-  },
-  {
-    "category": "Visual",
-    "score": 72,
-    "icon": "icon-visual.svg"
+{
+  "user": {
+    "name": "Test User",
+    "score": 76,
+    "categories": [
+      {
+        "category": "Reaction",
+        "score": 80,
+        "icon": "/assets/icon-reaction.svg",
+        "color": "text-[hsl(0,100%,67%)] bg-[hsl(0,100%,67%,0.1)]"
+      },
+      {
+        "category": "Memory",
+        "score": 92,
+        "icon": "/assets/icon-memory.svg",
+        "color": "text-[hsl(39,100%,56%)] bg-[hsl(39,100%,56%,0.1)]"
+      },
+      {
+        "category": "Verbal",
+        "score": 61,
+        "icon": "/assets/icon-verbal.svg",
+        "color": "text-[hsl(166,100%,37%)] bg-[hsl(166,100%,37%,0.1)]"
+      },
+      {
+        "category": "Visual",
+        "score": 72,
+        "icon": "/assets/icon-visual.svg",
+        "color": "text-[hsl(234,85%,45%)] bg-[hsl(234,85%,45%,0.1)]"
+      }
+    ]
   }
-]
+}
